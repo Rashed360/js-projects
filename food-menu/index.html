@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <h2>Hotel food order item list</h2>
+  <main>
+    <div>
+      <label>Food Item List:</label>
+      <select id="hotel" multiple size="20">
+        <option price="30">Apples</option>
+        <option price="30">Oranges</option>
+        <option price="30">Grapes</option>
+        <option>Bananas</option>
+        <option>Kiwi fruits</option>
+        <option>Chocolate cookies</option>
+        <option>Peanut cookies</option>
+        <option>Chocolate bars</option>
+        <option price="30">Ham Sandwiches</option>
+        <option>Cheese Sandwiches</option>
+        <option>Falafel sandwiches</option>
+        <option>Ice cream</option>
+        <option>Jelly</option>
+        <option>Carrot sticks and houmous</option>
+        <option>Margherita pizza</option>
+        <option>Pepperoni pizza</option>
+        <option>Vegan veggie pizza</option>
+      </select>
+    </div>
+    <div class="buttons">
+      <p>Total price:</p>
+      <h1 id="price">00</h1>
+      <button id="to-yes">Add item to menu &gt;</button>
+      <button id="to-hotel">&lt; Remove from menu</button>
+    </div>
+    <div>
+      <label>My menu:</label>
+      <select id="yes" multiple size="20">
+      </select>
+    </div>
+  </main>
+  <script src="application.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+body {
+    background-color:black;
+    font-family:arial;
+    color:white;
+}
+
+h1 {
+    color:grey;
+    font-family:verdana;
+}
+
+footer {
+     text-align: left
+}
+
+label {
+    width: 110px;
+    display: inline-block;
+}
+
+
+.maindiv {
+    background-color: white;
+    color: black;
+    width:500px;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.innerdiv {
+    display: inline-block;
+    margin-left: 100px;
+}
+
+
+
+
